@@ -1,0 +1,26 @@
+{
+  "name": "IDE",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Alain Abredan <alainabredan@gmail.com>"
+  ],
+  "private": true,
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3",
+    "components-font-awesome": "4",
+    "Ionicons": "ionicons#^2.0.1",
+    "iCheck": "^1.0.2",
+    "select2": "4",
+    "chart.js": "^2.7.2"
+  }
+}
