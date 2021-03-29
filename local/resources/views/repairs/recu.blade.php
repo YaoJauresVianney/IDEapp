@@ -75,7 +75,7 @@
         <td width="20%" colspan="2">Lieu de l'enlèvement: <strong>{{ $repair->place_getting }}<br></strong></td>
       </tr>
       <tr>
-        <td colspan="2">La somme de : <strong>{!! number_format($repair->sumDays()+$repair->tva(),0,'','.') !!} FCFA</strong></td>
+        <td colspan="2">La somme Hors Taxe de : <strong>{!! number_format($repair->sumDays()+$repair->tva(),0,'','.') !!} FCFA</strong></td>
       </tr>
       <tr>
         <td width="20%" colspan="2">Marque du véhicule : <strong>{{ $repair->car_brand }}<br></strong></td>
@@ -91,6 +91,9 @@
       </tr>
       <tr> 
         <td colspan="2">Pour : <strong>{!! 'Règlement de la facture N°'.$repair->reference !!}</strong></td>
+      </tr>
+      <tr>
+        <td><strong>NB:</strong> Pour la facture normalisée, vous devez venir avec la TVA soit 18% de la somme hors taxe, en plus du timbre.</td>
       </tr>
       <tr style="margin-top:15px;display:block;width:100%;">
         <td>
